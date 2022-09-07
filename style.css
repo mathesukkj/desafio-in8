@@ -31,7 +31,6 @@ header {
     background-size: cover;
     width: 100%;
     height: 940px;
-    min-height: 100vh;
     padding: 2%;
     margin: 0 auto;
 }
@@ -78,11 +77,11 @@ header {
 }
 
 #title1 {
-    font-size: 11vh;
+    font-size: 5em;
 }
 
 #title2 {
-    font-size: 5vh;
+    font-size: 2.5em;
 }
 
 #cadastro {
@@ -96,7 +95,7 @@ header {
 #txtcadastro {
     font-family: "Helvetica Ultralight Regular";
     color: white;
-    font-size: 5vh;
+    font-size: 2.5em;
 }
 
 #align-cadastro {
@@ -105,8 +104,6 @@ header {
 
 form {
     margin: 5%;
-
-    height: 100%;
 }
 
 .input-form-div {
@@ -135,5 +132,69 @@ input[type="submit"] {
     font-family: "Helvetica Ultralight Regular";
     width: 50%;
     height: 10vh;
-    font-size: 5vh;
+    font-size: 2.5em;
+}
+
+#lista-de-cadastro {
+    height: 940px;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 8%;
+    width: 100%;
+}
+
+#align-table {
+    width: 60%;
+}
+
+#txttable {
+    font-family: "Helvetica Ultralight Regular";
+    color: #29abe2;
+    font-size: 2.5em;
+}
+
+table {
+    margin: 15% auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+    font-size: 1.1em;
+}
+
+th {
+    font-family: serif;
+    color: #012d51;
+    font-family: "Roboto Regular";
+    padding: 0;
+    width: 25%;
+    height: 10vh;
+    border-bottom: 1px solid #29abe2;
+    border-right: 1px solid #29abe2;
+}
+
+th:last-child,
+td:last-child {
+    border-right: none;
+}
+
+tr {
+    height: 10vh;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+td {
+    width: 25%;
+    padding: 0;
+    border-bottom: 1px solid #29abe2;
+    border-right: 1px solid #29abe2;
+    font-family: "Helvetica Condensed Regular";
+    color: #808080;
+}
+
+td:first-child {
+    color: #012d51;
 }

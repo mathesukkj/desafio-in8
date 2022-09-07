@@ -91,7 +91,7 @@ header {
 
 #cadastro {
     margin: 0 auto;
-    padding: 8%;
+    padding: 3% 7%;
     width: 100%;
     background-color: #29abe2;
     text-align: center;
@@ -145,7 +145,7 @@ input[type="submit"] {
     background-color: white;
     text-align: center;
     margin: 0 auto;
-    padding: 8%;
+    padding: 3% 8%;
     width: 100%;
 }
 
@@ -224,5 +224,5 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
+    text-align: left;
 }

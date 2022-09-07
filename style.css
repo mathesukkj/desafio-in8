@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("fonts/Roboto-Regular_0.ttf");
+}
+
+@font-face {
+    font-family: "Helvetica Ultralight Regular";
+    src: url("fonts/helvetica-ultra-light.otf");
+}
+
+@font-face {
+    font-family: "Helvetica Condensed Regular";
+    src: url("fonts/ps.ttf");
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    margin: auto;
+}
+
+header {
+    background-image: url("img/index-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 940px;
+    min-height: 100vh;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+#main {
+    width: 55%;
+}
+
+#logo-in8-dev {
+    width: 150px;
+    float: left;
+}
+
+#menu {
+    color: white;
+    list-style-type: none;
+    width: 35vh;
+    float: right;
+}
+
+#menu li {
+    display: inline;
+    font-family: "Roboto Regular";
+    padding: 0 3%;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu li a:hover {
+    text-decoration: underline;
+}
+
+#titulos {
+    font-family: "Helvetica Ultralight Regular";
+    margin-top: 31%;
+}
+
+#title1,
+#title2 {
+    color: white;
+}
+
+#title1 {
+    font-size: 11vh;
+}
+
+#title2 {
+    font-size: 5vh;
+}

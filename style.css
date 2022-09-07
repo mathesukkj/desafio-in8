@@ -84,3 +84,56 @@ header {
 #title2 {
     font-size: 5vh;
 }
+
+#cadastro {
+    margin: 0 auto;
+    padding: 8%;
+    width: 100%;
+    background-color: #29abe2;
+    text-align: center;
+}
+
+#txtcadastro {
+    font-family: "Helvetica Ultralight Regular";
+    color: white;
+    font-size: 5vh;
+}
+
+#align-cadastro {
+    width: 40%;
+}
+
+form {
+    margin: 5%;
+
+    height: 100%;
+}
+
+.input-form-div {
+    margin: 10%;
+    font-family: "Roboto Regular";
+    color: white;
+    text-align: left;
+    margin-left: 5%;
+    font-size: 1em;
+}
+
+.input-form {
+    width: 105%;
+    border: none;
+    margin-top: 3%;
+    background-color: #29abe2;
+    border-bottom: 1px solid white;
+    font-family: "Helvetica Condensed Regular";
+    font-size: 1em;
+    color: white;
+}
+
+input[type="submit"] {
+    background-color: #012d51;
+    color: #29abe2;
+    font-family: "Helvetica Ultralight Regular";
+    width: 50%;
+    height: 10vh;
+    font-size: 5vh;
+}

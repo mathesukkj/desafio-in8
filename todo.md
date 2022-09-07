@@ -1,12 +1,12 @@
 ## TODO LIST
 
-- [x] *Iniciar projeto*
-- [X] Criar o **menu**
-- [X] Criar o **index**
-- [X] Criar o **formulário de cadastro**
-- [X] Criar a **lista de cadastro**
-- [ ] Criar **rodapé**
-- [ ] Deixar o site **responsivo**
-- [ ] Adicionar **menu mobile**
-- [ ] Adicionar **botão pro topo da página**
-- [ ] Usar **PHP**
+-   [x] _Iniciar projeto_
+-   [x] Criar o **menu**
+-   [x] Criar o **index**
+-   [x] Criar o **formulário de cadastro**
+-   [x] Criar a **lista de cadastro**
+-   [x] Criar **rodapé**
+-   [ ] Deixar o site **responsivo**
+-   [ ] Adicionar **menu mobile**
+-   [ ] Adicionar **botão pro topo da página**
+-   [ ] Usar **PHP**

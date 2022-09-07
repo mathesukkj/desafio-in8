@@ -13,6 +13,11 @@
     src: url("fonts/ps.ttf");
 }
 
+@font-face {
+    font-family: "Roboto Light";
+    src: url("fonts/Roboto-Light_0.ttf");
+}
+
 * {
     margin: 0 auto;
     padding: 0;
@@ -197,4 +202,27 @@ td {
 
 td:first-child {
     color: #012d51;
+    font-family: "Roboto Light";
+}
+
+footer {
+    background-image: url("img/rodape-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    height: 334px;
+}
+
+#txt-footer {
+    color: white;
+    font-family: "Roboto Light";
+    width: 25%;
+    line-height: 2.5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }

@@ -1,3 +1,5 @@
+/*? FONTES */
+
 @font-face {
     font-family: "Roboto Regular";
     src: url("fonts/Roboto-Regular_0.ttf");
@@ -17,6 +19,8 @@
     font-family: "Roboto Light";
     src: url("fonts/Roboto-Light_0.ttf");
 }
+
+/** MENU E INDEX */
 
 * {
     margin: 0 auto;
@@ -89,12 +93,15 @@ header {
     font-size: 2.5em;
 }
 
+/** FORMULÁRIO DE CADASTRO */
+
 #cadastro {
     margin: 0 auto;
     padding: 3% 7%;
     width: 100%;
     background-color: #29abe2;
     text-align: center;
+    height: 100%;
 }
 
 #txtcadastro {
@@ -140,8 +147,10 @@ input[type="submit"] {
     font-size: 2.5em;
 }
 
+/** LISTA DE CADASTRO */
+
 #lista-de-cadastro {
-    height: 940px;
+    height: 100%;
     background-color: white;
     text-align: center;
     margin: 0 auto;
@@ -205,6 +214,8 @@ td:first-child {
     font-family: "Roboto Light";
 }
 
+/** RODAPÉ */
+
 footer {
     background-image: url("img/rodape-desktop.jpg");
     background-repeat: no-repeat;
@@ -216,6 +227,7 @@ footer {
 }
 
 #txt-footer {
+    text-align: center;
     color: white;
     font-family: "Roboto Light";
     width: 25%;
@@ -224,5 +236,27 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: left;
+}
+
+/** BOTÃO TOPO */
+
+.botao-top {
+    background-color: none;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-top.active {
+    bottom: 32px;
+    pointer-events: all;
+    opacity: 0.5;
 }

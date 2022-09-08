@@ -8,5 +8,5 @@
 -   [x] Criar **rodapé**
 -   [ ] Deixar o site **responsivo**
 -   [ ] Adicionar **menu mobile**
--   [ ] Adicionar **botão pro topo da página**
+-   [x] Adicionar **botão pro topo da página**
 -   [ ] Usar **PHP**

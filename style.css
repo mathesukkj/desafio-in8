@@ -47,20 +47,21 @@ header {
     margin: 0 auto;
 }
 
-#main {
-    width: 55%;
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
 }
 
 #logo-in8-dev {
     width: 150px;
-    float: left;
 }
 
 #menu {
     color: white;
     list-style-type: none;
     width: 30%;
-    float: right;
 }
 
 #menu li {
@@ -81,12 +82,9 @@ header {
 
 #titulos {
     font-family: "Helvetica Ultralight Regular";
-    margin-top: 26%;
-}
-
-#title1,
-#title2 {
+    margin-top: 10%;
     color: white;
+    width: 58%;
 }
 
 #title1 {
@@ -256,6 +254,44 @@ footer {
 
 /** MENU HAMBURGUER */
 
+#btn-mobile,
+#btn-mobile2 {
+    display: none;
+}
+
+#menu-mbl {
+    display: none;
+}
+
+#menu-mbl li {
+    padding: 4%;
+    padding-top: 13%;
+    padding-left: 20%;
+}
+#menu-mbl li a {
+    text-decoration: none;
+    color: white;
+    font-size: 2.8rem;
+    font-family: "Roboto Light";
+}
+
+@media screen and (max-width: 1920px) {
+    #titulos {
+        margin-top: 22%;
+    }
+    header {
+        height: 94rem;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    #titulos {
+        margin-top: 24%;
+    }
+    header {
+        height: 90rem;
+    }
+}
 @media screen and (max-width: 1024px) {
     #logo-in8-dev {
         float: right;
@@ -268,7 +304,11 @@ footer {
         font-size: 57%;
     }
     #titulos {
-        margin-top: 46%;
+        margin-top: 24%;
+        margin-left: 18%;
+    }
+    header {
+        height: 120rem;
     }
     #cadastro {
         padding: 6%;
@@ -311,6 +351,70 @@ footer {
         width: 90%;
         font-size: 1.5rem;
     }
+    #txt-footer {
+        width: 100%;
+    }
+    #titulos {
+        margin-top: 30%;
+    }
+    header {
+        height: 130rem;
+    }
+    nav {
+        width: 100%;
+        margin-top: 2%;
+    }
+    #btn-mobile {
+        display: block;
+        background-image: url("svg/hamburguer.svg");
+        border: none;
+        background-color: transparent;
+        outline: none;
+        height: 35px;
+        width: 41px;
+    }
+    #btn-mobile2 {
+        display: block;
+        background-image: url("svg/hamburguer-aberto0.svg");
+        border: none;
+        background-color: transparent;
+        outline: none;
+        height: 35px;
+        width: 41px;
+    }
+    #menu {
+        display: none;
+    }
+    #menu-mbl {
+        position: absolute;
+        width: 50%;
+        top: 0px;
+        left: 0;
+        height: 50vh;
+        visibility: hidden;
+        background-color: #29abe2;
+        text-decoration: none;
+        color: white;
+    }
+    #nav.active #menu-mbl {
+        display: block;
+        visibility: visible;
+    }
+    #nav.active #btn-mobile {
+        display: none;
+    }
+    #nav.active #btn-mobile2 {
+        margin-top: 8%;
+        margin-left: 40%;
+        display: block;
+    }
+    #nav.active {
+        display: block;
+    }
+    #nav.active #logo-in8-dev {
+        margin-right: 136px;
+        margin-top: 0px;
+    }
 }
 
 @media screen and (max-width: 426px) {
@@ -320,6 +424,9 @@ footer {
     }
     header {
         padding-top: 5%;
+        height: 100rem;
+
+        background-position: 60%;
     }
     #main {
         width: 80%;
@@ -327,13 +434,16 @@ footer {
     #titulos {
         display: block;
         text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 30%;
     }
     #title1 {
         font-size: 9.2rem;
     }
-
     #title2 {
-        font-size: 3.9rem;
+        font-size: 3.8rem;
+        display: inline;
     }
     #logo-in8-dev {
         width: 120px;
@@ -365,5 +475,35 @@ footer {
     }
     #txttable {
         display: block;
+    }
+    #menu-mbl {
+        height: 40vh;
+    }
+    #btn-mobile {
+        display: block;
+        background-image: url("svg/hamburguer.svg");
+        border: none;
+        background-color: transparent;
+        outline: none;
+        height: 35px;
+        width: 41px;
+    }
+    #btn-mobile2 {
+        display: block;
+        background-image: url("svg/hamburguer-aberto0.svg");
+        border: none;
+        background-color: transparent;
+        outline: none;
+        height: 35px;
+        width: 41px;
+    }
+    #nav.active #btn-mobile2 {
+        margin-top: 14%;
+        margin-left: 32%;
+        margin-right: 50%;
+    }
+    #nav.active #logo-in8-dev {
+        margin-right: 60px;
+        margin-top: 3px;
     }
 }

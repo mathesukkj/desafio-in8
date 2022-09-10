@@ -10,6 +10,6 @@
     -   [x] Layout do **Desktop**
     -   [x] Layout do **Tablet**
     -   [x] Layout do **Mobile** (tabela faltando)
--   [ ] Adicionar **menu mobile**
+-   [x] Adicionar **menu mobile**
 -   [x] Adicionar **botão pro topo da página**
 -   [ ] Usar **PHP**
